@@ -1,0 +1,78 @@
+.cooperation {
+    background: url('../../images/cooperation/cooperation-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    &__inner {
+        padding: 40px 15px 30px;
+    }
+    &__info {
+        margin-bottom: 33px;
+        text-align: center;
+    }
+    &__title {
+        margin-bottom: 23px;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cooperation {
+        margin: 150px 0 137px;
+        height: 483px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        &__inner {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__info {
+            width: 100%;
+            max-width: 720px;
+            margin-left: 30px;
+            margin-bottom: 33px;
+            order: 1;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: left;
+        }
+        &__title {
+            font-size: 70px;
+            line-height: 70px;
+        }
+        &__form {
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .cooperation {
+        &__inner {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cooperation {
+        &__inner {
+            justify-content: flex-start;
+        }
+        &__info {
+            margin-left: 120px;
+        }
+    }
+}

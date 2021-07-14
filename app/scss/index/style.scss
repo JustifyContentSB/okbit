@@ -1,0 +1,17 @@
+@import '../../../node_modules/normalize.css/normalize';
+//base
+@import '../_base/vars.scss';
+@import '../_base/base.scss';
+@import '../_base/body.scss';
+//main
+@import '../_main/container.scss';
+@import '../_main/btn.scss';
+@import '../_main/form.scss';
+@import '../_main/popup.scss';
+@import '../_main/header.scss';
+@import '../_main/about.scss';
+@import '../_main/features.scss';
+@import '../_main/cooperation.scss';
+@import '../_main/faq.scss';
+@import '../_main/pro.scss';
+@import '../_main/footer.scss';

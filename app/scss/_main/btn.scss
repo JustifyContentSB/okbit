@@ -1,0 +1,40 @@
+.btn {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border: 1px solid var(--accent);
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    transition: color .2s ease, background .2s ease, border-color .2s ease;
+    &:hover,
+    &:focus {
+        background: var(--accent);
+        color: #fff;
+        border-color: var(--accent);
+    }
+    &--2 {
+        background: var(--accent);
+        border-color: var(--accent);
+        &:hover,
+        &:focus {
+            color: var(--accent);
+            background: #fff;
+            border-color: #fff;
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .btn {
+        min-height: 50px;
+        line-height: 46px;
+        border-width: 2px;
+        font-size: 13px;
+    }
+}
